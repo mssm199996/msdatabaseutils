@@ -1,6 +1,6 @@
 # IDEA files
-\.idea
-msdatabaseutils.iml
+/.idea/
+/msdatabaseutils.iml
 
 # Build files
 target
