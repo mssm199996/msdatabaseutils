@@ -10,6 +10,10 @@ public interface ICompte {
 
 	public abstract String getPassword();
 
+	public abstract LocalDate getDateDerniereConnexion();
+
+	public abstract LocalTime getHeureDerniereConnexion();
+
 	public abstract void setDateDerniereConnexion(LocalDate date);
 
 	public abstract void setHeureDerniereConnexion(LocalTime heure);
