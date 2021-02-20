@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface ICompte {
 
+	public abstract int getId();
+
 	public abstract String getUsername();
 
 	public abstract String getPassword();
